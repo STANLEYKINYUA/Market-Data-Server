@@ -1,0 +1,10 @@
+
+Version 1
+
+    * Listen for cTrader Connection & Create Connection
+    * Send Instructions as 8 bit integer strings
+    * Receive Historical Ticks from cTrader :: Parse Range/ Renko Bars from 1 Week a go :: 1 wk of History behind us
+    * Store Ticks in Database for Future ( Ask, Bid , Spread , Time )
+    * Listen for Lightning Connection
+    * Send and Receive Instructions as 8 bit Integer Strings
+    * Stream Market Data to Lightning in Real Time

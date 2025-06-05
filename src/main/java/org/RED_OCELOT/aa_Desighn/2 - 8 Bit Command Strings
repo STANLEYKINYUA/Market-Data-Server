@@ -1,0 +1,26 @@
+
+Command Strings of 8 bits in Length
+
+
+SERVER COMMANDS
+    >> Command Directory    ::  9000
+
+        Commands
+            0000     -   HeartBeat
+            1111     -   HeartBeat Response For Successful
+
+
+cTrader Node Commands
+    >> Command Directory    ::  2000
+
+        Commands
+            0000     -   HeartBeat
+            2000     -
+            2001     -   Default Halt all activity
+            2005     -   Request Symbol Data Feed --    (20000005/EURUSD/RE3) :: req 3 renko EURUSD
+
+Lightning Commands
+    >> Command Directory    ::  1000
+
+        Commands
+            0000     -   HeartBeat
