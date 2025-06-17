@@ -40,4 +40,10 @@ public class Main
         }
 
     }
+
+    //Add FlatLaf Support
+    public static void init_Flatlaf()
+    {
+
+    }
 }

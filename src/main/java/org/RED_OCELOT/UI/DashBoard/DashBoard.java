@@ -9,8 +9,19 @@ public class DashBoard extends JFrame
 
     public DashBoard()
     {
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        Init();
+
+    }
+
+    public void Init()
+    {
         this.setLayout(new MigLayout());
+        this.setBounds(10,30,1200,800);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        this.setTitle("Market Data Server");
+
+        //Initialize Menus
 
     }
 }
