@@ -1,15 +1,23 @@
 package org.RED_OCELOT.UI.DashBoard;
 
 import net.miginfocom.swing.MigLayout;
+import org.RED_OCELOT.UI.DashBoard.MDI_Facilities.Desktop_Pane;
 
 import javax.swing.*;
 
 public class DashBoard extends JFrame
 {
 
+    Desktop_Pane Desktop_Pane = new Desktop_Pane();
+
     public DashBoard()
     {
+        /** Initialize and set Window Parameters*/
         Init();
+
+        //TODO Add the JDesktop Pane as a Singleton
+        //TODO Add the Menu Bar
+
 
     }
 
