@@ -6,13 +6,14 @@ import org.RED_OCELOT.UI.DashBoard.DashBoard;
 import javax.swing.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.beans.PropertyVetoException;
 
 public class Splash_Screen extends JFrame
 {
     JButton Start_Button = new JButton("START");
     JLabel Splash_Label = new JLabel("MARKET DATA SERVER");
 
-    DashBoard DashBoard = new DashBoard();
+
 
     // TODO Write Unit Tests for this Application
     public Splash_Screen()
@@ -70,11 +71,10 @@ public class Splash_Screen extends JFrame
     {
 
         //todo
+        DashBoard DashBoard = new DashBoard();
 
         //todo Display Dashboard
         this.dispose();
-        DashBoard.setVisible(true);
-
 
     }
 }

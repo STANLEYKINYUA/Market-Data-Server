@@ -145,10 +145,16 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- ___________________________________________________________________-->
+        <!-- ________ DATABASE and INPUT / OUTPUT LIBRARIES _____________-->
 
+        <!-- SQL Lite Dependency -->
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.50.1.0</version>
+        </dependency>
 
-
+        <!-- JSON  -->
 
 
 
