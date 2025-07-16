@@ -119,18 +119,18 @@ public class Main
             //TODO      Remove this and use Config File
 
 
-            //  Using FLATMACDark so that I can continue development
-            //FlatMacDarkLaf.registerCustomDefaultsSource("GENERAL_SYSTEMS.THEMES");
-            //FlatMacDark_LAF.setup();
+            //
+            FlatMacDark_LAF.registerCustomDefaultsSource("Themes");
+            FlatMacDark_LAF.setup();
 
             //Prefer FlatLight Laf
-            FlatMacLight_LAF.registerCustomDefaultsSource("Themes");
-            FlatMacLight_LAF.setup();
+            //FlatMacLight_LAF.registerCustomDefaultsSource("Themes");
+            //FlatMacLight_LAF.setup();
 
-            // DarkPurple_Laf.registerCustomDefaultsSource("GENERAL_SYSTEMS.THEMES");
+            // DarkPurple_Laf.registerCustomDefaultsSource("Themes");
             //DarkPurple_Laf.setup();
 
-            //Carbon_Laf.registerCustomDefaultsSource("GENERAL_SYSTEMS.THEMES");
+            //Carbon_Laf.registerCustomDefaultsSource("Themes");
             //Carbon_Laf.setup();
 
         }

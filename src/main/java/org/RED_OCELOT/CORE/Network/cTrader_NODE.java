@@ -1,0 +1,4 @@
+package org.RED_OCELOT.CORE.Network;
+
+public class cTrader_NODE extends cTrader_Client{
+}

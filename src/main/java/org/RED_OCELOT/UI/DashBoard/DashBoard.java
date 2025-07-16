@@ -1,13 +1,11 @@
 package org.RED_OCELOT.UI.DashBoard;
 
 import com.formdev.flatlaf.fonts.roboto_mono.FlatRobotoMonoFont;
-import net.miginfocom.swing.MigLayout;
 import org.RED_OCELOT.UI.DashBoard.MDI_Facilities.Desktop_Pane;
-import org.RED_OCELOT.UI.DashBoard.Windows_MDI.CTrader_MDI_Window;
+import org.RED_OCELOT.UI.DashBoard.MDI_Windows.cTrader_Window.CTrader_MDI_Window;
 
 import javax.swing.*;
 import java.awt.*;
-import java.beans.PropertyVetoException;
 
 public class DashBoard extends JFrame
 {

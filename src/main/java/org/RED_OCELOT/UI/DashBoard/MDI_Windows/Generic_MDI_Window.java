@@ -1,9 +1,8 @@
-package org.RED_OCELOT.UI.DashBoard.Windows_MDI;
+package org.RED_OCELOT.UI.DashBoard.MDI_Windows;
 
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
-import java.beans.PropertyVetoException;
 
 public class Generic_MDI_Window extends JInternalFrame
 {

@@ -6,7 +6,7 @@ public class FlatMacDark_LAF extends FlatMacDarkLaf
 {
     public static boolean setup()
     {
-        return setup(new FlatMacDarkLaf());
+        return setup(new FlatMacDark_LAF());
     }
 
     @Override
